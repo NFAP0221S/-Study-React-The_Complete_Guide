@@ -1,7 +1,7 @@
 import "./ExpensesFilter.css";
 const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (e) => {
-    props.onChangeFilter(e.target.value);
+    props.onChangeFilter(e.target.value); // 선택된 selected의 value를 부모로 전달
   };
 
   return (
