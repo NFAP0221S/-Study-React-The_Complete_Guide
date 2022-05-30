@@ -83,6 +83,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        {/* Cansel 버튼을 클릭하면 props로 onCancel을 실행 */}
         <button onClick={props.onCancel}>Cansel</button>
         <button type="submit">Add Expense</button>
       </div>
